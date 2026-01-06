@@ -42,7 +42,7 @@ Students often struggle with:
 *(Update this list based on your actual project stack)*
 
 ### Core
-- C++ / Python / Java *(choose what applies)*
+- Python / Javascript / CSS 
 - Git & GitHub
 
 ### Web (if applicable)
