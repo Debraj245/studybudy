@@ -1,59 +1,57 @@
 # 📚 Studybudy
 
-Studybudy is a student-focused project aimed at improving **study organization, productivity, and learning efficiency**.  
-It helps learners manage tasks, track progress, and practice concepts in a structured way.
+Studybudy is a **Django-based web application** designed to help students organize their study workflow, practice programming concepts, and track learning progress in a structured way.
 
 ---
 
-## 🌟 Project Motivation
+## 🌟 About the Project
 
-Students often struggle with:
-- Managing multiple subjects
-- Tracking study progress
-- Organizing notes and practice code
-- Staying consistent
-
-**Studybudy** was created to solve these problems by providing a simple and extensible study-support system.
+Studybudy was built as a learning-focused project using **Django** to:
+- Practice backend development
+- Understand Django project structure
+- Implement real-world features like views, models, templates, and authentication
+- Help students manage study-related content efficiently
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
-- Help students organize their study workflow  
-- Encourage consistent learning habits  
-- Provide a clean structure for study materials  
-- Serve as a practice project for programming and GitHub usage  
-
----
-
-## ✨ Key Features
-
-- 📌 Task and study planning
-- 🗂 Organized notes / study content
-- 📊 Progress tracking
-- 🧠 Practice programs and logic building
-- 🔄 Easy to extend with new features
-- 💻 Beginner-friendly codebase
+- Build a real-world Django application
+- Strengthen backend development skills
+- Practice Git and GitHub workflow
+- Create a structured platform for learning and coding practice
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-*(Update this list based on your actual project stack)*
+- 📌 Study task and content management
+- 🗂 Organized study resources
+- 🧠 Coding and logic practice sections
+- 🔐 Django authentication (login/register) *(if implemented)*
+- 📊 Progress tracking *(basic / planned)*
+- 💻 Beginner-friendly and extensible codebase
 
-### Core
-- Python / Javascript / CSS 
-- Git & GitHub
+---
 
-### Web (if applicable)
+## 🛠️ Tech Stack
+
+### Backend
+- Python 3
+- Django
+
+### Frontend
 - HTML
 - CSS
-- JavaScript
-- Django / Flask *(if backend exists)*
+- JavaScript *(optional)*
+
+### Database
+- SQLite (default Django DB)
+- PostgreSQL *(optional / future)*
 
 ### Tools
 - VS Code
-- Git CLI
+- Git & GitHub
 
 ---
 
