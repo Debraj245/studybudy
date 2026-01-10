@@ -46,54 +46,41 @@ This project mirrors real-world application logic and is great for beginner to i
 
 studybudy/
 │
-├── manage.py                 # Django management script
+├── base/                         # Main Django application
+│   ├── migrations/              # Database migrations
+│   ├── static/                  # Static files (CSS, JS, images)
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── templates/               # HTML templates
+│   │   └── base/
+│   │       ├── home.html
+│   │       ├── profile.html
+│   │       ├── room.html
+│   │       ├── login_register.html
+│   │       ├── navbar.html
+│   │       └── main.html
+│   ├── admin.py                 # Admin site configuration
+│   ├── apps.py                  # App configuration
+│   ├── forms.py                 # Django forms
+│   ├── models.py                # Database models
+│   ├── urls.py                  # App URL routes
+│   ├── views.py                 # View logic
+│   └── __init__.py
 │
-├── studybud/                 # Main Django project (settings)
+├── studybud/                     # Django project settings
 │   ├── __init__.py
+│   ├── settings.py              # Project settings
+│   ├── urls.py                  # Main URL configuration
 │   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
 │   └── wsgi.py
 │
-├── base/                     # Core Django app
-│   ├── __init__.py
-│   ├── admin.py              # Admin configurations
-│   ├── apps.py               # App configuration
-│   ├── forms.py              # Django forms
-│   ├── models.py             # Database models
-│   ├── tests.py              # App tests
-│   ├── urls.py               # App URL routes
-│   ├── views.py              # App views / business logic
-│   │
-│   ├── migrations/           # Database migrations
-│   │   └── __init__.py
-│   │
-│   ├── templates/            # HTML templates
-│   │   └── base/
-│   │       ├── main.html
-│   │       ├── navbar.html
-│   │       ├── home.html
-│   │       ├── room.html
-│   │       ├── profile.html
-│   │       ├── login_register.html
-│   │       ├── room_form.html
-│   │       └── delete.html
-│   │
-│   └── static/               # Static files (CSS, JS, Images)
-│       ├── css/
-│       │   └── style.css
-│       ├── js/
-│       │   └── main.js
-│       └── images/
-│           └── avatar.svg
-│
-├── media/                    # User-uploaded files (avatars)
-│   └── avatars/
-│
-├── venv/                     # Virtual environment (not pushed to GitHub)
-│
-├── .gitignore                # Git ignored files
-├── README.md                 # Project documentation
-└── requirements.txt          # Project dependencies
+├── media/                        # Uploaded media files (avatars)
+├── env/                          # Virtual environment (ignored in Git)
+├── .gitignore                    # Git ignore rules
+├── requirements.txt              # Project dependencies
+├── manage.py                     # Django management script
+└── README.md                     # Project documentation
+
 
 
